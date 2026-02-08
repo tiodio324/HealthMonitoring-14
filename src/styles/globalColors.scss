@@ -1,0 +1,56 @@
+// Global Colors - Medical Blue-Teal Health Theme
+$color-primary-darkest: #00695C;
+$color-primary-dark: #00796B;
+$color-primary: #009688;
+$color-primary-medium: #26A69A;
+$color-primary-light: #4DB6AC;
+$color-primary-lighter: #80CBC4;
+$color-primary-lightest: #E0F2F1;
+
+$color-accent: #00BCD4;
+$color-accent-light: #B2EBF2;
+$color-accent-warm: #FF5722;
+
+$color-bg-primary: #FAFFFE;
+$color-bg-secondary: #F0F9F7;
+$color-bg-tertiary: #E0F2EF;
+$color-bg-dark: #00695C;
+
+$color-text-primary: #1A3A36;
+$color-text-secondary: #2E5B54;
+$color-text-muted: #5D8A82;
+$color-text-light: #8AB5AD;
+$color-text-inverse: #FFFFFF;
+
+$color-success: #4CAF50;
+$color-success-light: #C8E6C9;
+$color-warning: #FF9800;
+$color-warning-light: #FFE0B2;
+$color-error: #F44336;
+$color-error-light: #FFCDD2;
+$color-info: #2196F3;
+$color-info-light: #BBDEFB;
+
+$color-border-primary: #B2DFDB;
+$color-border-light: #E0F2F1;
+$color-border-dark: #80CBC4;
+
+$color-shadow: rgba(0, 105, 92, 0.08);
+$color-shadow-medium: rgba(0, 105, 92, 0.12);
+$color-shadow-dark: rgba(0, 105, 92, 0.2);
+
+$gradient-primary: linear-gradient(135deg, $color-primary 0%, $color-accent 100%);
+$gradient-header: linear-gradient(180deg, $color-primary-darkest 0%, $color-primary-dark 100%);
+$gradient-card: linear-gradient(145deg, $color-bg-primary 0%, $color-bg-secondary 100%);
+
+:root {
+  --color-primary-darkest: #{$color-primary-darkest}; --color-primary-dark: #{$color-primary-dark}; --color-primary: #{$color-primary};
+  --color-primary-medium: #{$color-primary-medium}; --color-primary-light: #{$color-primary-light}; --color-primary-lighter: #{$color-primary-lighter}; --color-primary-lightest: #{$color-primary-lightest};
+  --color-accent: #{$color-accent}; --color-accent-light: #{$color-accent-light}; --color-accent-warm: #{$color-accent-warm};
+  --color-bg-primary: #{$color-bg-primary}; --color-bg-secondary: #{$color-bg-secondary}; --color-bg-tertiary: #{$color-bg-tertiary}; --color-bg-dark: #{$color-bg-dark};
+  --color-text-primary: #{$color-text-primary}; --color-text-secondary: #{$color-text-secondary}; --color-text-muted: #{$color-text-muted}; --color-text-light: #{$color-text-light}; --color-text-inverse: #{$color-text-inverse};
+  --color-success: #{$color-success}; --color-success-light: #{$color-success-light}; --color-warning: #{$color-warning}; --color-warning-light: #{$color-warning-light};
+  --color-error: #{$color-error}; --color-error-light: #{$color-error-light}; --color-info: #{$color-info}; --color-info-light: #{$color-info-light};
+  --color-border-primary: #{$color-border-primary}; --color-border-light: #{$color-border-light}; --color-border-dark: #{$color-border-dark};
+  --color-shadow: #{$color-shadow}; --color-shadow-medium: #{$color-shadow-medium}; --color-shadow-dark: #{$color-shadow-dark};
+}

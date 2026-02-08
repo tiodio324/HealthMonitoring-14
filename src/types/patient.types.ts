@@ -1,0 +1,2 @@
+export interface Patient { id: string; firstName: string; lastName: string; middleName?: string; birthDate: string; gender: 'male' | 'female'; phone?: string; email?: string; address?: string; diagnosis?: string; isActive: boolean; createdAt: string; updatedAt: string; }
+export interface PatientFormData { firstName: string; lastName: string; middleName?: string; birthDate: string; gender: 'male' | 'female'; phone?: string; email?: string; address?: string; diagnosis?: string; }

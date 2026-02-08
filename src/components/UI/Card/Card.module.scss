@@ -1,0 +1,56 @@
+@use '@/styles/globalColors' as *;
+@use '@/styles/variables' as *;
+@use '@/styles/mixins' as *;
+
+// Health-Monitoring: Чистый медицинский стиль
+.card {
+  display: flex;
+  flex-direction: column;
+  background: $color-bg-primary;
+  border-radius: $radius-lg;
+  border: 1px solid $color-border-light;
+  overflow: hidden;
+  transition: all $transition-fast;
+}
+
+.default { background: $color-bg-primary; }
+.outlined { 
+  background: linear-gradient(180deg, $color-bg-primary 0%, $color-bg-secondary 100%);
+  border: 1px solid $color-border-primary;
+}
+.elevated { 
+  background: $color-bg-primary; 
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.padding-none .content { padding: 0; }
+.padding-sm .content { padding: $spacing-sm; }
+.padding-md .content { padding: $spacing-md; }
+.padding-lg .content { padding: $spacing-lg; }
+
+.hoverable {
+  cursor: pointer;
+  
+  &:hover {
+    border-color: $color-success;
+    box-shadow: 0 6px 20px rgba($color-success, 0.1);
+  }
+}
+
+.header {
+  padding: $spacing-md $spacing-lg;
+  background: $color-bg-tertiary;
+  border-bottom: 1px solid $color-border-light;
+  
+  &:empty { display: none; }
+}
+
+.content { flex: 1; }
+
+.footer {
+  padding: $spacing-md $spacing-lg;
+  background: $color-bg-secondary;
+  border-top: 1px solid $color-border-light;
+  
+  &:empty { display: none; }
+}
