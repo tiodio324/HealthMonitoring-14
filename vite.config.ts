@@ -5,7 +5,6 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/HealthMonitoring-14/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
